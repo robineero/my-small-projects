@@ -1,0 +1,1 @@
+In this repository I keep my small projects and experiments so that everybody could freely use them.

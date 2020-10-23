@@ -1,0 +1,1 @@
+Small program for saving links. Written in php, data kept in json so no database needed.
