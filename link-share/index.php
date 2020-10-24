@@ -18,6 +18,9 @@
     <div class="row my-4">
         <div class="col">
 
+            <div class="mb-3" id="cat-fact"></div>
+            <script src="./cat-facts.js"></script>
+
         <form method="get" action="action.php">
             <div class="form-group">
                 <input type="text" class="form-control" name="link" aria-describedby="emailHelp" placeholder="Enter an url here">
