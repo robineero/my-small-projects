@@ -5,3 +5,5 @@ Helps to:
 * Save links like bookmarks
 * Share URLs between devices
 * Collectively share links
+
++ Added random cat fact (using [cat-facts API](https://github.com/alexwohlbruck/cat-facts)) to cheer up my girlfriend because likes cats :)
