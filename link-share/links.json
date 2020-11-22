@@ -1,10 +1,12 @@
 [
     {
+        "id": "fb9ae",
         "url": "stackoverflow.blog\/2020\/09\/11\/podcast-270-how-developers-can-become-great-writers\/",
         "comment": "A podcast on how to write better texts"
     },
     {
-        "url": "erimell.ee",
+        "id": "c97dc",
+        "url": "erimell.ee\/",
         "comment": "Erimell. Buy automotive goods later."
     }
 ]
