@@ -30,7 +30,7 @@ if (isset($_GET['d'])) {
 
 if (isset($_GET['link'])) {
 
-    $id = substr(md5($_GET['link']), 0, 5);
+    $id = date("YmdHis");
     $link = preg_replace("(^https?://)", "", $_GET['link']);
     $comment = $_GET['comment'];
 

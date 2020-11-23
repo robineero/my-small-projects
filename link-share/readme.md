@@ -8,5 +8,5 @@ Written in php. Data is kept in json (so no database is needed). Bootstrap is us
 
 **List of updates**
 
-+ 22.11.20 - Added id attribute to Link object and an option to delete links by link id. Id is first characters of MD5 hash of the full URL.
++ Added id attribute to Link object and an option to delete links by link id `date("YmdHis")`.
 + Added random cat fact (using [cat-facts API](https://github.com/alexwohlbruck/cat-facts)) to cheer up my girlfriend because likes cats :)
