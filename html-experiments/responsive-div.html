@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+</head>
+
+<style>
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        background-color: lightgoldenrodyellow;
+    }
+
+    .flex-container > div {
+        padding: 10px;
+    }
+
+    .left {
+        background-color: aquamarine;
+        flex: 20%;
+    }
+
+    .right {
+        background-color: tomato;
+        flex: 80%;
+    }
+
+    @media (max-width: 800px) {
+        .flex-container {
+            flex-direction: column;
+        }
+    }
+
+</style>
+
+
+<body>
+    <div class="flex-container">
+        <div class="left">
+            <h2>Left</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro vero neque ipsam dolorem eligendi nam inventore repellat quos et laboriosam.</p>
+        </div>
+        <div class="right">
+            <h2>Right</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, inventore? At blanditiis incidunt voluptatibus amet molestias voluptates ipsam recusandae reiciendis, dolores assumenda. Qui, maiores fugit.</p>
+        </div>
+    </div>
+</body>
+</html>
